@@ -125,3 +125,46 @@ body { background-image: radial-gradient(ellipse 65% 28% at 52% 0%, #8270f00d, t
   .career-home *, .career-home *::before, .career-home *::after { animation: none !important; transition-duration: .01ms !important; }
   .career-visual { transform: none; }
 }
+
+
+/* Keep the entire site title inside the dark navigation bar. */
+.VPNav, .VPNavBar, .VPNavBar .wrapper, .VPNavBar .container, .VPNavBar .content, .VPNavBar .content-body {
+  background-color: #11131c !important;
+}
+.VPNavBar .container { max-width: 1440px; }
+.VPNavBar .title {
+  flex-shrink: 0;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #11131c !important;
+}
+.VPNavBarTitle, .VPNavBarTitle .title {
+  background-color: #11131c !important;
+  border-bottom: 0 !important;
+}
+.VPNavBarTitle .title { max-width: 100%; }
+.VPNavBarTitle .title span {
+  color: #f7f7fb;
+  font-weight: 800;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.VPNavBarSearch { flex-shrink: 0; }
+.VPNavBarSearch .DocSearch-Button,
+.VPNavBarSearch .VPNavBarSearchButton {
+  border: 1px solid #373b4e !important;
+  border-radius: 10px !important;
+  background: #202433 !important;
+  min-width: 155px;
+}
+.VPNavBarSearch .DocSearch-Button:hover,
+.VPNavBarSearch .VPNavBarSearchButton:hover { background: #2a3044 !important; }
+.VPNavBarSearch .DocSearch-Button-Placeholder { color: #d0d2df !important; }
+@media (max-width: 960px) {
+  .VPNavBarTitle .title span { font-size: 15px; }
+  .VPNavBarSearch .DocSearch-Button,
+  .VPNavBarSearch .VPNavBarSearchButton { min-width: 0; }
+}
