@@ -33,3 +33,11 @@ For each test, record **date**, **test ID**, **commit SHA**, **browser/device**,
 Review React concepts, outline a small project, implement one interactive component, test it using the criteria above, and document blockers and evidence.
 
 **Scope:** Research and planning only. A completed React product is not claimed or required by this research checkpoint.
+
+## Repeatable reviewer protocol (issue #20)
+
+**Planned, not performed:** Test the homepage, role cards, comparison, plan, and review log at 375 × 812 and 1440 × 900 CSS pixels; record overflow, clipping, and navigation results. Use Tab, Shift+Tab and Enter to verify that links are reachable and focus remains visible.
+
+**React (future feature):** Render an input/output component, enter `alpha`, then `beta`, and verify the displayed output changes accordingly without console errors. **API (future feature):** Stub success, a 2-second delay, and HTTP 500; confirm loading, success display, readable failure and retry. Record date, browser, commit, expected and observed results only after executing each check. These features and tests are not claimed as complete.
+
+Related: [classmate issue #20](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/20).
