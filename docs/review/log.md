@@ -33,3 +33,11 @@ A reviewer should open the [NYT original employer posting](https://job-boards.gr
 ## Review record format for future feedback
 
 For each new review, record **reviewer and comment link**, **exact feedback**, **decision and reason**, **linked commit/PR**, **observed verification evidence**, **reviewer retry and result**, and **final resolution**. Avoid recording planned checks as observed results.
+
+## New classmate feedback: navigation trace (issue #19)
+
+**Feedback:** [Shakti's issue #19](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/19) asks for an inspectable route through role evidence, comparison, plan, and review.
+
+**Decision:** Accept. Use the following reviewer route: [role cards](../research/roles) → [comparison and source-to-decision table](../research/comparison#trace-each-finding-into-a-decision) → [portfolio test plan](../portfolio/plan#test-plan-with-measurable-acceptance-criteria) → [review history](./log). Each page has a return link to the adjacent research or plan page. The source register is also accessible from the [homepage](../).
+
+**Repeatable check (pending):** Open the published site, follow the route in order, verify every link and heading, and record the browser, date, and result in an issue comment. This documentation edit does not claim that published-site navigation was tested.
