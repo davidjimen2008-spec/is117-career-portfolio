@@ -25,6 +25,11 @@ description: Explore real frontend roles and turn employer evidence into portfol
       <div class="career-visual-foot">Illustrative categories only · Bar lengths are decorative, not research statistics.</div>
     </div>
   </section>
+  <div class="career-highlights" aria-label="Research overview">
+    <div class="career-highlight"><strong>02</strong><span>Original employer role cards</span></div>
+    <div class="career-highlight"><strong>04</strong><span>Documented research improvements</span></div>
+    <div class="career-highlight"><strong>01</strong><span>Evidence-led portfolio roadmap</span></div>
+  </div>
   <section aria-labelledby="explore-heading">
     <div class="career-section-top">
       <div><div class="career-kicker">Explore the research</div><h2 class="career-heading" id="explore-heading">From job posting to project plan.</h2></div>
@@ -38,6 +43,15 @@ description: Explore real frontend roles and turn employer evidence into portfol
       <a class="career-card" href="./portfolio/plan#test-plan-with-measurable-acceptance-criteria"><span class="career-icon" aria-hidden="true">✓</span><h3>Skills &amp; testing</h3><p>Review concrete mobile, desktop, keyboard, React, and API acceptance criteria.</p><span class="career-link">Explore checks →</span></a>
       <a class="career-card" href="./review/log"><span class="career-icon" aria-hidden="true">◇</span><h3>Review history</h3><p>Follow GitHub issues, merged fixes, verification notes, and remaining peer-review steps.</p><span class="career-link">See review log →</span></a>
     </div>
+    <section class="career-process" aria-labelledby="process-title">
+      <div class="career-kicker">How the research works</div>
+      <h2 class="career-heading" id="process-title">Research. Compare. Create.</h2>
+      <div class="career-process-grid">
+        <div class="career-process-step"><b>01 / Explore original postings</b><p>Read the two dated employer role cards and check the source links.</p></div>
+        <div class="career-process-step"><b>02 / Find the overlap</b><p>Separate employer evidence from interpretation and compare the skill requirements.</p></div>
+        <div class="career-process-step"><b>03 / Plan what to build</b><p>Connect findings to proposed features, test criteria, and review evidence.</p></div>
+      </div>
+    </section>
     <div class="career-note"><span aria-hidden="true">ⓘ</span><div><strong>Research transparency.</strong> Job descriptions were recorded November 12, 2026 and may change. Check original employer pages before applying. Portfolio features and software tests are proposed, not completed. Personal reflections remain private in Canvas. AI assistance was used to organize research and documentation.</div></div>
   </section>
 </div>
