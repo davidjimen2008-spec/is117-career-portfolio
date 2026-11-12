@@ -29,3 +29,11 @@
 **Decision:** Start with an accessible responsive interface, then add React and an API-backed feature. These are **proposed features**, not completed implementations.
 
 **Verification status:** Planned; no tests are claimed as performed. See [feature plan and proposed test cases](../portfolio/plan) and [peer-review log](../review/log).
+
+## Worked evidence-to-feature decisions (issue #21)
+
+**NYT → React:** The [NYT role card](./roles) records React in the researched posting. **Evidence:** framework mentioned by employer. **Our interpretation:** a reusable React component could demonstrate related practice; the posting does not prescribe our project. **Proposed feature:** interactive component. **Planned check:** C1 in the [portfolio plan](../portfolio/plan). No implementation or test is claimed.
+
+**Priceline → API:** The [Priceline role card](./roles) records REST/GraphQL familiarity in the research notes. **Evidence boundary:** the original Workday page was not independently readable in a previous review. **Our interpretation:** an API-backed feature with explicit loading/error states would demonstrate a related skill. **Proposed feature:** API integration. **Planned checks:** A1–A3 in the [portfolio plan](../portfolio/plan). The employer did not require this specific project; source recheck and implementation are pending.
+
+Related: [classmate issue #21](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/21) and [peer-review record](../review/log).
