@@ -23,7 +23,8 @@ export default defineConfig({
       ] },
       { text: 'Build with evidence', items: [
         { text: 'Portfolio roadmap', link: '/portfolio/plan' },
-        { text: 'Review & decisions', link: '/review/log' }
+        { text: 'Review & decisions', link: '/review/log' },
+        { text: 'Method & AI use', link: '/research/method' }
       ] }
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/davidjimen2008-spec/is117-career-portfolio' }],
