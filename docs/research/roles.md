@@ -40,3 +40,16 @@
 The requirements are employer-posting claims from dated research, not guarantees of an offer, current opening, or personal eligibility. Private career reflections belong in Canvas.
 
 Continue to the [comparison](./comparison) and [portfolio plan](../portfolio/plan).
+
+## Independent source recheck register (issue #22)
+
+The November 12, 2026 dates above describe the **initial research record**, not a new independent source check for this fix.
+
+| Employer | Original source | Existing review note | Fresh source recheck | Deadline |
+|---|---|---|---|---|
+| NYT | [Employer posting](https://job-boards.greenhouse.io/thenewyorktimes/jobs/4751909005) | Owner previously reported page readable | Pending | Not stated in initial research; recheck pending |
+| Priceline | [Employer posting](https://priceline.wd1.myworkdayjobs.com/en-US/priceline/job/New-York/Junior-Software-Engineer_R5885) | Owner previously reported Workday page unreadable | Pending | Not stated in initial research; recheck pending |
+
+**Verification procedure:** For each URL, record check date and timezone, whether the original employer page opens, title and requirements actually visible, deadline if explicitly listed, application status if visible, and evidence link. If blocked or removed, record **unable to verify** rather than claiming it is open. No current availability is asserted.
+
+Follow the [comparison](./comparison) and [portfolio verification plan](../portfolio/plan). Feedback: [issue #22](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/22).
