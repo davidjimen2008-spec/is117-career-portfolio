@@ -168,3 +168,52 @@ body { background-image: radial-gradient(ellipse 65% 28% at 52% 0%, #8270f00d, t
   .VPNavBarSearch .DocSearch-Button,
   .VPNavBarSearch .VPNavBarSearchButton { min-width: 0; }
 }
+
+
+/* Consistent navigation geometry across home and documentation routes.
+   VitePress normally reserves the sidebar width inside the navbar on doc pages,
+   moving search and links. Override that desktop-only reservation. */
+@media (min-width: 960px) {
+  .VPNavBar .container {
+    display: flex !important;
+    align-items: center;
+    max-width: 1440px;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+  .VPNavBar .title,
+  .VPNavBar.has-sidebar .title {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: 230px !important;
+    min-width: 230px !important;
+    height: var(--vp-nav-height);
+    flex: 0 0 230px !important;
+    border-bottom: 0 !important;
+  }
+  .VPNavBar .content,
+  .VPNavBar.has-sidebar .content {
+    position: relative !important;
+    flex: 1 1 auto !important;
+    min-width: 0;
+    width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .VPNavBar .content-body,
+  .VPNavBar.has-sidebar .content-body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .VPNavBar .VPNavBarSearch { margin-right: auto; }
+  .VPNavBar .VPNavBarMenu { margin-left: auto; }
+}
+@media (min-width: 960px) and (max-width: 1160px) {
+  .VPNavBar .title,
+  .VPNavBar.has-sidebar .title { width: 200px !important; min-width: 200px !important; flex-basis: 200px !important; }
+  .VPNavBar .container { padding-left: 20px !important; padding-right: 20px !important; }
+}
