@@ -33,3 +33,48 @@ A reviewer should open the [NYT original employer posting](https://job-boards.gr
 ## Review record format for future feedback
 
 For each new review, record **reviewer and comment link**, **exact feedback**, **decision and reason**, **linked commit/PR**, **observed verification evidence**, **reviewer retry and result**, and **final resolution**. Avoid recording planned checks as observed results.
+
+
+## Peer feedback, change, and retest: completion record
+
+**Do not mark this cycle complete until a real classmate has checked the result.** The four improvement descriptions are documented, but the repository's existing PR notes are from the repository owner. If Shakti provided verbal feedback, record the actual date and wording with Shakti's agreement; do not present owner-posted notes as Shakti's GitHub comments.
+
+| Requirement | Current evidence | Status / next action |
+|---|---|---|
+| Peer feedback on understanding and use | Four improvement topics have been documented; independent reviewer comment or contemporaneous feedback record not yet linked | **Needs evidence:** ask reviewer to explain the research question and follow one source-to-feature trail |
+| Response and change | Issues #1–#4, merged PRs #5–#8; redesign PR #9 | **Documented** |
+| Verification of changed documentation | Owner-posted PR notes describe documentation checks, with limits | **Partially documented** |
+| Reviewer retry after change | No independent reviewer retry result linked | **Pending** |
+| Live-site navigation and search | Deployment success does not itself prove browser functionality | **Not independently recorded** |
+
+### Practical reviewer script
+
+Ask the reviewer to:
+1. Open the published site and explain in their own words what the research question asks and who the site helps.
+2. Follow **Career Paths → Compare Roles → Portfolio Roadmap** and identify one requirement from an original employer posting that leads to a proposed feature and a test.
+3. Use the search bar to locate a term such as `React`; try desktop and narrow mobile widths.
+4. Report the exact steps taken, what worked or failed, and whether the original concern is resolved after the changes.
+5. Leave their actual feedback on a GitHub issue/PR, or provide a dated note that can be accurately attributed.
+
+### Copyable observed-result record (fill in only after testing)
+
+- **Reviewer and review date:** Pending
+- **Original concern / issue:** Pending
+- **Source opened and specific finding:** Pending
+- **Linked change / PR:** Pending
+- **Retest environment and steps:** Pending
+- **Expected result:** Pending
+- **Observed result:** Pending
+- **Pass / fail / remaining concern:** Pending
+- **Reviewer comment or evidence URL:** Pending
+
+### Site owner verification checklist
+
+- [ ] Open the public homepage and confirm the title reads **Frontend Futures**, not the older design.
+- [ ] Navigate to all four research and review sections using the top navigation.
+- [ ] Search for `React` and open a relevant result.
+- [ ] At 375px and 1440px viewport widths, check for clipped content and horizontal overflow.
+- [ ] Use keyboard Tab and Enter to navigate links and search.
+- [ ] Record browser, date, observed result, and screenshot/issue link for each test.
+
+**Important:** These unchecked items are instructions for future testing, not evidence that the tests have passed.
