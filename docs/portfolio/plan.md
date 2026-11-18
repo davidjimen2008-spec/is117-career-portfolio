@@ -108,3 +108,18 @@ Related: [classmate issue #20](https://github.com/davidjimen2008-spec/is117-care
 5. Paste this updated record, repository/site URL and feedback issue into the **Canvas Plan checkpoint**; do not treat the GitHub issue as submission.
 
 **Change note:** Added reader and goal, compared two page approaches, chose a project-first structure, specified five checkable user stories, mapped all three repositories and professional materials, and kept unverified contributions, peer feedback and future testing explicitly pending.
+
+
+## Contribution evidence audit — November 18, 2026
+
+The links below are **repository commit evidence**, not proof that a browser test passed or that a reviewer approved this Plan. Commit authorship and messages are visible in GitHub history; the actual behavior still needs testing where noted.
+
+| Project | Concrete contribution evidence | What it supports / boundary |
+|---|---|---|
+| ABOVE THE MEAN | [Checkout and SQLite work, commit 3050b70](https://github.com/davidjimen2008-spec/is117-brand-studio/commit/3050b703d95e871dc943c963d0960565365b70ba) | Commit history documents planned and implemented local demo checkout/SQLite work; no production commerce claim |
+| ABOVE THE MEAN | [Peer-feedback decision, commit 20ede87](https://github.com/davidjimen2008-spec/is117-brand-studio/commit/20ede872469143045375a2ed64ebb092ebd143ea) and [disclosure clarification, commit 6c998f0](https://github.com/davidjimen2008-spec/is117-brand-studio/commit/6c998f02ce46b6d3dc2ba6782748ef83b2e1003f) | Documents response to T-shirt feedback, not a reviewer retry for this portfolio Plan |
+| Student Tutoring Platform | [Integration of partner research, commit dde3b7d](https://github.com/davidjimen2008-spec/is117-group-business/commit/dde3b7d5ff33b083caa0e8a361d63f6a7304b947) | Documents integration work credited to David; partner's separate contributions remain credited to Shakti |
+| Student Tutoring Platform | [Review-driven decisions, commit 7aa1eb0](https://github.com/davidjimen2008-spec/is117-group-business/commit/7aa1eb0cae98f0b00c045780e8efe16e9bc43381) and [team decision follow-ups, commit 62bd5b9](https://github.com/davidjimen2008-spec/is117-group-business/commit/62bd5b96daf6d9bf9b1dad213610c1ff53587353) | Documents team planning and review follow-ups; does not establish a deployed tutoring application |
+| Career portfolio | [Review 2 Plan commit 2663c3a](https://github.com/davidjimen2008-spec/is117-career-portfolio/commit/2663c3a98ea6ca1bd618b6cdb265d1764511a13e) and [successful VitePress deployment run](https://github.com/davidjimen2008-spec/is117-career-portfolio/actions/runs/43564567958) | Plan committed and deployment job succeeded; rendered page and links still require direct browser checks |
+
+**Pending verification:** A human should open the published Plan, click all three repository links and the two project-story paths, check mobile navigation, and record date, browser, observed results, and any failure. Reviewer should independently follow [Plan review issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27), comment with findings, then retry any accepted fixes. No independent Review 2 peer feedback was present in issue #27 when this audit was prepared. Keep it open until reviewed. LinkedIn creation, a public privacy-reviewed résumé link, and Canvas submission remain outside the scope of this repository audit.
