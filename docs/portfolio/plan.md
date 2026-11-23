@@ -93,7 +93,7 @@ Related: [classmate issue #20](https://github.com/davidjimen2008-spec/is117-care
 
 ## Peer review request and decision history
 
-**Reviewer:** Not assigned. **Feedback received for this checkpoint:** None claimed. **Status:** Awaiting a real classmate's review. Ask the reviewer to (1) find both featured stories and reported contributions, (2) locate three repositories and professional-link statuses, (3) compare the two approaches and check all five stories, and (4) open at least one evidence source. Record feedback in a GitHub issue.
+**Reviewer:** @Shakti2008 (assigned on [issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27)). **Feedback received for this checkpoint:** Initial AI-assisted source/commit review posted from Shakti2008's account on November 23, 2026 ([review comment](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27#issuecomment-7106064288)). **Status:** Initial review received; live browser checks and independent post-fix retry remain pending. Ask the reviewer to (1) find both featured stories and reported contributions, (2) locate three repositories and professional-link statuses, (3) compare the two approaches and check all five stories, and (4) open at least one evidence source. Record feedback in a GitHub issue.
 
 **Decision workflow:** feedback issue → decide implement / investigate / defer / decline with reason → reference issue number in a documentation or code commit/PR → record actual verification date, steps and result → ask reviewer to retry → close only if resolved. Earlier issues and research work do not count as this checkpoint's peer feedback automatically.
 
@@ -156,3 +156,17 @@ The links below are **repository commit evidence**, not proof that a browser tes
 - **Canvas:** Submit the [Plan source](https://github.com/davidjimen2008-spec/is117-career-portfolio/blob/main/docs/portfolio/plan.md), [published documentation Plan](https://davidjimen2008-spec.github.io/is117-career-portfolio/portfolio/plan), [repository](https://github.com/davidjimen2008-spec/is117-career-portfolio), and [review issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27), noting any pending items truthfully.
 
 **Change note (November 23):** Updated the Canvas deadline, added an explicitly unverified React documentary reflection scaffold and concrete portfolio component example, and clarified remaining independent review, verification, and submission tasks. No new test pass or classmate feedback is claimed.
+
+
+## Response to Shakti's November 23 Review 2 feedback (issue #27)
+
+**Source:** [Shakti2008's initial AI-assisted review](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27#issuecomment-7106064288). This review checked repository sources and commit diffs; it explicitly did not perform live browser/device tests.
+
+| Finding | Decision and rationale | Verification status |
+|---|---|---|
+| Reviewer-status inconsistency | **Implement:** Updated the earlier checkpoint section to name assigned reviewer @Shakti2008 and link the dated feedback. | Plan source changed; ask Shakti to reopen the source and confirm |
+| Contribution verification wording | **Clarify/defer functional claims:** Linked commits prove checked-in changes and documentation, not that tests were executed. Do not describe the test file as a passing test. A dated execution log is required for any future claim of a successful run. | No new executed-test result claimed |
+| Published site and US1–US4 | **Defer pending manual browser checks:** Test at 1440 × 900 and 375 × 812, click both featured project links and all three repository links, check keyboard navigation and record browser/date/observed result. | Not run; no browser success claimed |
+| US5 final retry | **Request reviewer retry:** Reopen this Plan and issue #27, check corrected reviewer attribution, inspect any new evidence and report pass/fail. | Pending Shakti's independent retry |
+
+**Change note:** Addressed the reviewer attribution discrepancy and recorded explicit decisions for all four findings. This documentation update does not substitute for the React documentary viewing, browser tests, a classmate retry, or Canvas submission.
