@@ -47,7 +47,7 @@ Related: [classmate issue #20](https://github.com/davidjimen2008-spec/is117-care
 
 # Review 2 — Plan — Portfolio (November 14, 2026)
 
-**Checkpoint:** IS117-005, due November 16, 2026 at 11:30 a.m. ET. This section extends the existing career research rather than repeating a competitor report.
+**Checkpoint:** IS117-005, due November 23, 2026 at 11:30 a.m. ET. This section extends the existing career research rather than repeating a competitor report.
 
 ## Reader, goal, and evidence
 
@@ -134,3 +134,25 @@ The links below are **repository commit evidence**, not proof that a browser tes
 **Verification performed:** Inspected GitHub source for the Plan and opened the diffs of T-shirt commit `3050b70`, group commits `dde3b7d` and `7aa1eb0`. Confirmed the three repository targets exist as public repositories. **Not performed:** direct rendered-page browser click-through, 1440×900 or 375×812 viewport tests, executing the SQLite tests, or an independent classmate review. These remain pending, not passing.
 
 **Peer retry request:** @Shakti2008, please independently open this updated Plan and the linked commits, confirm the two project stories and three repository links, check US1–US5 against the published page where possible, and post findings and any retry result on [issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27). The owner/AI-assisted audit is not a substitute for your review. Keep the issue open until your feedback and retry are documented.
+
+
+## November 23 checkpoint update — React documentary and final verification
+
+**Current Canvas deadline:** November 23, 2026, 11:30 a.m. Eastern. The earlier November 16 date in the project history refers to the original checkpoint and does not override Canvas.
+
+### React documentary reflection — student confirmation pending
+
+**Viewing status:** Not verified. The student must watch the required React documentary and confirm which idea they learned before this section can be represented as a personal reflection.
+
+**Concept to connect to the site after viewing: React components.** A future project-first portfolio could use a reusable `ProjectCard` component with props for project name, summary, personal contribution, repository URL, and evidence URL. The ABOVE THE MEAN and Student Tutoring Platform stories would share a consistent structure while displaying different data. **This is a proposed site example, not a claim that the component has been implemented or that the documentary has been watched.**
+
+**Student follow-up:** After watching, replace this note with one specific idea actually discussed in the documentary, explain it in your own words, and connect it to the proposed ProjectCard example (or a different accurate example). Include the documentary title or link if available.
+
+### Submission and review status
+
+- **Plan:** Reader, page comparison, five stories, professional materials and contribution evidence documented above.
+- **Peer review:** [Issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27) is the independent review request. Await actual reviewer comments and retry; do not close based on AI or owner-side review alone.
+- **Verification:** Link and responsive checks remain planned unless actual dated results are recorded. A successful deployment job is not proof of rendered-page functionality.
+- **Canvas:** Submit the [Plan source](https://github.com/davidjimen2008-spec/is117-career-portfolio/blob/main/docs/portfolio/plan.md), [published documentation Plan](https://davidjimen2008-spec.github.io/is117-career-portfolio/portfolio/plan), [repository](https://github.com/davidjimen2008-spec/is117-career-portfolio), and [review issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27), noting any pending items truthfully.
+
+**Change note (November 23):** Updated the Canvas deadline, added an explicitly unverified React documentary reflection scaffold and concrete portfolio component example, and clarified remaining independent review, verification, and submission tasks. No new test pass or classmate feedback is claimed.
