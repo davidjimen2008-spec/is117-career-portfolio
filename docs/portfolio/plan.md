@@ -170,3 +170,8 @@ The links below are **repository commit evidence**, not proof that a browser tes
 | US5 final retry | **Request reviewer retry:** Reopen this Plan and issue #27, check corrected reviewer attribution, inspect any new evidence and report pass/fail. | Pending Shakti's independent retry |
 
 **Change note:** Addressed the reviewer attribution discrepancy and recorded explicit decisions for all four findings. This documentation update does not substitute for the React documentary viewing, browser tests, a classmate retry, or Canvas submission.
+
+
+### Browser verification reported by student — November 23, 2026
+
+**Environment:** Student's desktop browser (exact browser/version not confirmed). **Observed by student:** The published Portfolio Plan opened successfully, and the three project repository links (ABOVE THE MEAN, Student Tutoring Platform, Career Portfolio) worked when tested from the published Plan. These are student-reported manual results, not independently executed browser tests by the AI assistant. **Still pending:** Documented desktop viewport layout, 375 × 812 mobile viewport, keyboard navigation, and Shakti's final reviewer retry.
