@@ -140,18 +140,18 @@ The links below are **repository commit evidence**, not proof that a browser tes
 
 **Current Canvas deadline:** November 23, 2026, 11:30 a.m. Eastern. The earlier November 16 date in the project history refers to the original checkpoint and does not override Canvas.
 
-### React documentary reflection — student confirmation pending
+### React documentary reflection — student-provided response
 
-**Viewing status:** Not verified. The student must watch the required React documentary and confirm which idea they learned before this section can be represented as a personal reflection.
+> One interesting idea about React is how developers can create reusable components instead of writing the same code multiple times. For my portfolio, I could create a ProjectCard component that displays information about ABOVE THE MEAN and Student Tutoring Platform. This would make my website more organized and easier to update.
 
-**Concept to connect to the site after viewing: React components.** A future project-first portfolio could use a reusable `ProjectCard` component with props for project name, summary, personal contribution, repository URL, and evidence URL. The ABOVE THE MEAN and Student Tutoring Platform stories would share a consistent structure while displaying different data. **This is a proposed site example, not a claim that the component has been implemented or that the documentary has been watched.**
+**Source:** *React.js: The Documentary* (Honeypot), https://www.youtube.com/watch?v=8pDqJVdNa44
 
-**Student follow-up:** After watching, replace this note with one specific idea actually discussed in the documentary, explain it in your own words, and connect it to the proposed ProjectCard example (or a different accurate example). Include the documentary title or link if available.
+**Implementation status:** `ProjectCard` is a proposed future component, not an implemented feature. The paragraph above was supplied by the student; documentary viewing was not independently verified.
 
 ### Submission and review status
 
 - **Plan:** Reader, page comparison, five stories, professional materials and contribution evidence documented above.
-- **Peer review:** [Issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27) is the independent review request. Await actual reviewer comments and retry; do not close based on AI or owner-side review alone.
+- **Peer review:** [Issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27) is the independent review request. Initial AI-assisted feedback was posted by @Shakti2008 on November 23; final post-fix reviewer retry remains pending. Do not close based on owner-side review alone.
 - **Verification:** Link and responsive checks remain planned unless actual dated results are recorded. A successful deployment job is not proof of rendered-page functionality.
 - **Canvas:** Submit the [Plan source](https://github.com/davidjimen2008-spec/is117-career-portfolio/blob/main/docs/portfolio/plan.md), [published documentation Plan](https://davidjimen2008-spec.github.io/is117-career-portfolio/portfolio/plan), [repository](https://github.com/davidjimen2008-spec/is117-career-portfolio), and [review issue #27](https://github.com/davidjimen2008-spec/is117-career-portfolio/issues/27), noting any pending items truthfully.
 
